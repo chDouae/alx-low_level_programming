@@ -6,7 +6,8 @@
   * return nothing
   *@f:  pointer to a function
   *@name: the name to add
-  */
+  **/
+
 void print_name(char *name, void (*f)(char *))
 {
 	if (name == NULL || f == NULL)
